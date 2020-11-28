@@ -1,37 +1,236 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/Jademuss/Mitarea/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-### Markdown
+  <title>Top Cartelera</title>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-```markdown
-Syntax highlighted code block
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
-# Header 1
-## Header 2
-### Header 3
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
+  
+  
 
-- Bulleted
-- List
+</head>
 
-1. Numbered
-2. List
+<body id="page-top">
 
-**Bold** and _Italic_ and `Code` text
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">TOP CARTELERA</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>      
+    </div>
+  </nav>
 
-[Link](url) and ![Image](src)
-```
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0 text-uppercase">TÚ CARTELERA</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Las mejores peliculas, en el mejor lugar, revisa el TOP 10 a continuacion!</h2>
+        <a href="#about" class="btn btn-primary js-scroll-trigger">IR AL TOP</a>
+      </div>
+    </div>
+  </header>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+  <!-- About Section -->
+  <section id="about" class="about-section text-center" background="img/ipad.jpg">
+    <div class="container" ></div>
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4 mt-0">Listado de peliculas segun su RATING</h2>         
+             <button class="btn btn-primary mb-4 js-scroll-trigger " id="boton">VER TOP 10!</button>            
+             
+             <table id="mitabla" class="table" >
+               <thead>
+                 <tr class="text-white mb-4">
+                   <th scope ="col">Titulo</th>
+                   <th scope ="col">Año</th>
+                   <th scope ="col" class="table-danger">Rating</th>
+                   <th scope ="col">Metascore</th>
+                   <th scope ="col">Director</th>
+                 </tr>
+               </thead>
+               <tbody id="resultado" class="table-dark ">
+                 
+       
+               </tbody>
+             </table>
+            
+            
+        </div>
+      </div>
+      <img src="img/ipad.jpg" class="img-fluid mb-4" alt="">
+    </div>
+  </section>
 
-### Jekyll Themes
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section bg-light">
+    <div class="container">
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jademuss/Mitarea/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-8 col-lg-7">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>Tú cartelera</h4>
+            <p class="text-black-50 mb-0">Aqui podras encontrar las mejores peliculas segun la critica del publico e información adicional respecto a estas, no olvides visitar nuestra lista <a href="file:///C:/Users/Esmeralda/Desktop/startbootstrap-grayscale-gh-pages/index.html">TOP 10</a> ;)</p>
+          </div>
+        </div>
+      </div>
 
-### Support or Contact
+      <!-- Project One Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left ">
+                <h4 class="text-white">The Shawshank Redemption</h4>
+                <p class="mb-0 text-white-50">Trata sobre la vida en prisión de Andy Dufresne tras haber sido condenado injustamente, enfocándose en especial en la relación que entabla con Red, un veterano prisionero de Shawshank. </p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+      <!-- Project Two Row -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">The Godfather</h4>
+                <p class="mb-0 text-white-50">Presenta un retrato preciso y profundo de una época, pero sobre todo es una crítica subrepticia a la sociedad norteamericana, las relaciones familiares, la práctica política y sus esquemas morales.</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Signup Section -->
+  <section id="signup" class="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Subscribete para recivir mas noticias!</h2>
+
+          <form class="form-inline d-flex">
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Ingresa tu Email...">
+            <button type="submit" class="btn btn-primary mx-auto">Subscribirse</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section bg-black">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Dirección</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">Santiago de Chile</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="#">jav.guzmana@alumnos.duoc.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Telefono</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">+(569) 82222373</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social d-flex justify-content-center">
+        <a href="#" class="mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Copyright &copy;  Tú cartelera 2019
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/ajax.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+  
+
+</body>
+
+</html>
